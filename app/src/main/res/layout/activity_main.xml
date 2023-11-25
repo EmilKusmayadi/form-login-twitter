@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="49dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="183dp"
+        android:src="@drawable/logo"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img1"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="50dp"
+        android:text="Masuk ke X"
+        android:id="@+id/font"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar dengan Google"
+        android:id="@+id/input1"
+    />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Daftar dengan Apple"
+        android:id="@+id/ip"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atau"
+        android:layout_below="@+id/ip"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsregular"
+        android:id="@+id/atau"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/atau"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Buat akun"
+        android:id="@+id/buat_akun"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buat_akun"
+        android:layout_marginTop="17dp"
+        android:text="Dengan mendaftar,Anda menyetujui persyaratan layanan dan keebijakan privasi,termasuk penggunaan Kuki."
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:width="350dp"
+        android:id="@+id/peringatan"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah Punya Akun?"
+        android:id="@+id/sudah_punya_akun"
+        android:layout_below="@+id/peringatan"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinssemibold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_below="@+id/sudah_punya_akun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+
+
+        />
+
+</RelativeLayout>
